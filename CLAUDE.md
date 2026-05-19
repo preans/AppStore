@@ -13,9 +13,9 @@ This repo is Paul's personal iOS app store. When Paul asks you to build an app, 
 ## When Paul says "build me an app that does X"
 
 1. **Pick a slug.** Lowercase, hyphenated, short. e.g. "workout tracker" → `workout-tracker`. Confirm with Paul if you're not sure.
-2. **Scaffold the Xcode project** under `apps/<slug>/`. Use SwiftUI. Use a bundle identifier of the form `com.paulreaney.<slug>` (no hyphens — convert to camelCase for the bundle ID if needed). Set the scheme name to `<slug>` so `ship.sh` can find it.
+2. **Scaffold the Xcode project** under `apps/<slug>/`. Use SwiftUI. Use a bundle identifier of the form `com.preans.<slug>` (no hyphens — convert to camelCase for the bundle ID if needed). Set the scheme name to `<slug>` so `ship.sh` can find it.
 3. **Add a placeholder catalog entry** to `apps.json` in `apps[]` with the right `bundleIdentifier`, `name`, `subtitle`, `category`. Leave `versions: []` for now — `ship.sh` will populate it.
-4. **Add an app icon** at `icons/<slug>.png` (1024×1024 ideally; generate something reasonable if Paul doesn't provide one). Set `iconURL` to `https://paulreaney.github.io/AppStore/icons/<slug>.png`.
+4. **Add an app icon** at `icons/<slug>.png` (1024×1024 ideally; generate something reasonable if Paul doesn't provide one). Set `iconURL` to `https://preans.github.io/AppStore/icons/<slug>.png`.
 5. **Build and ship:**
    ```
    scripts/ship.sh <slug> --version 0.1.0 --notes "Initial release."
@@ -26,7 +26,7 @@ This repo is Paul's personal iOS app store. When Paul asks you to build an app, 
 ## Constraints to honor
 
 - **Free Apple ID.** Don't add entitlements that require a paid developer account (no Push Notifications, no iCloud, no App Groups, no Sign in with Apple). If Paul asks for a feature that needs one of these, surface the trade-off before building.
-- **Bundle identifier prefix.** Always `com.paulreaney.<something>`. The free Apple ID's 3-app limit is per bundle-ID prefix on device, so don't churn the prefix.
+- **Bundle identifier prefix.** Always `com.preans.<something>`. The free Apple ID's 3-app limit is per bundle-ID prefix on device, so don't churn the prefix.
 - **iOS deployment target.** Default to iOS 16.0 unless Paul has a reason to go lower.
 - **No CocoaPods, no external dependency managers unless asked.** Swift Package Manager is fine.
 - **Keep apps small and single-purpose.** This is a personal store, not the App Store. One feature, well done, beats a 12-screen sprawl.

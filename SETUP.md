@@ -41,11 +41,11 @@ Open that URL in a browser to confirm the storefront renders. The "Add to AltSto
 
 ## 4. One-time fix: update `apps.json` for your username
 
-The scaffold assumes `paulreaney.github.io`. If your GitHub username is different, do a find-and-replace in `apps.json` and `CLAUDE.md`:
+The scaffold assumes `preans.github.io`. If your GitHub username is different, do a find-and-replace in `apps.json` and `CLAUDE.md`:
 
 ```
-paulreaney.github.io  →  <your-username>.github.io
-com.paulreaney.       →  com.<your-username>.
+preans.github.io  →  <your-username>.github.io
+com.preans.       →  com.<your-username>.
 ```
 
 Commit + push.
