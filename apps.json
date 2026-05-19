@@ -1,0 +1,41 @@
+{
+  "name": "Paul's App Store",
+  "subtitle": "Apps I built for me, my friends, and my family.",
+  "description": "A personal app store. Apps here are vibe-coded by Paul (with a lot of help from Claude) and shipped through AltStore. If you trust Paul, you can probably trust the apps.",
+  "iconURL": "https://paulreaney.github.io/AppStore/icons/store-icon.png",
+  "headerURL": "https://paulreaney.github.io/AppStore/icons/store-header.png",
+  "website": "https://paulreaney.github.io/AppStore/",
+  "tintColor": "#3478F6",
+  "featuredApps": [
+    "com.paulreaney.hello"
+  ],
+  "apps": [
+    {
+      "name": "Hello World",
+      "bundleIdentifier": "com.paulreaney.hello",
+      "developerName": "Paul Reaney",
+      "subtitle": "The first app in the store.",
+      "localizedDescription": "A placeholder app so the catalog has something in it. Replace this entry when you ship your first real app.",
+      "iconURL": "https://paulreaney.github.io/AppStore/icons/hello.png",
+      "tintColor": "#3478F6",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-05-19",
+          "localizedDescription": "Initial placeholder build.",
+          "downloadURL": "https://paulreaney.github.io/AppStore/ipa/hello-0.1.0.ipa",
+          "size": 0,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      }
+    }
+  ],
+  "news": []
+}

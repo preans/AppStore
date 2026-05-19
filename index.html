@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paul's App Store</title>
+  <meta name="theme-color" content="#3478F6" />
+  <link rel="icon" href="icons/store-icon.png" />
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --text-dim: #6e6e73;
+      --accent: #3478f6;
+      --border: rgba(0, 0, 0, 0.08);
+      --radius: 18px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000;
+        --card: #1c1c1e;
+        --text: #f5f5f7;
+        --text-dim: #98989d;
+        --border: rgba(255, 255, 255, 0.08);
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.4;
+    }
+    .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+    header {
+      display: flex; gap: 16px; align-items: center;
+      padding: 16px 0 24px;
+    }
+    header img.icon {
+      width: 72px; height: 72px; border-radius: 16px;
+      background: var(--card); object-fit: cover;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+    }
+    header h1 { margin: 0; font-size: 28px; letter-spacing: -0.02em; }
+    header p { margin: 2px 0 0; color: var(--text-dim); font-size: 15px; }
+    .add-bar {
+      display: flex; gap: 8px; align-items: center;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 14px; margin-bottom: 28px;
+      font-size: 14px; color: var(--text-dim);
+    }
+    .add-bar code {
+      flex: 1; min-width: 0;
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+      color: var(--text); background: transparent;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .add-bar a, .add-bar button {
+      appearance: none; border: 0;
+      background: var(--accent); color: white;
+      padding: 8px 14px; border-radius: 980px;
+      font-weight: 600; font-size: 14px; text-decoration: none;
+      cursor: pointer; white-space: nowrap;
+    }
+    .add-bar button.secondary {
+      background: transparent; color: var(--accent);
+      padding: 8px 6px;
+    }
+    h2.section {
+      font-size: 13px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      color: var(--text-dim); margin: 24px 0 12px;
+    }
+    .app {
+      display: grid; grid-template-columns: 64px 1fr auto;
+      gap: 14px; align-items: center;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px; margin-bottom: 10px;
+    }
+    .app img.app-icon {
+      width: 64px; height: 64px; border-radius: 14px;
+      object-fit: cover; background: var(--bg);
+    }
+    .app .meta { min-width: 0; }
+    .app .name { font-weight: 600; font-size: 17px; }
+    .app .subtitle { color: var(--text-dim); font-size: 14px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .app .version { color: var(--text-dim); font-size: 12px; margin-top: 4px; }
+    .app a.install {
+      appearance: none; text-decoration: none;
+      background: rgba(120,120,128,0.16); color: var(--accent);
+      padding: 7px 16px; border-radius: 980px;
+      font-weight: 600; font-size: 14px;
+    }
+    .empty {
+      text-align: center; padding: 40px 16px;
+      color: var(--text-dim); font-size: 14px;
+    }
+    footer {
+      margin-top: 40px; padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--text-dim); font-size: 13px; line-height: 1.6;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img class="icon" id="store-icon" alt="" />
+      <div>
+        <h1 id="store-name">Loading…</h1>
+        <p id="store-subtitle"></p>
+      </div>
+    </header>
+
+    <div class="add-bar">
+      <code id="source-url"></code>
+      <a id="open-altstore" href="#">Open in AltStore</a>
+      <button id="copy-url" class="secondary" type="button">Copy</button>
+    </div>
+
+    <h2 class="section">Apps</h2>
+    <div id="apps"></div>
+
+    <footer>
+      <p>
+        This page is the storefront for the AltStore source at
+        <code id="source-url-foot"></code>.
+        Add it inside the AltStore app on your iPhone to install apps from this store.
+      </p>
+      <p>
+        Don't have AltStore yet? See <a href="SETUP.md">SETUP.md</a> in the repo.
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    const SOURCE_URL = new URL("apps.json", window.location.href).href;
+    document.getElementById("source-url").textContent = SOURCE_URL;
+    document.getElementById("source-url-foot").textContent = SOURCE_URL;
+    document.getElementById("open-altstore").href =
+      "altstore://source?url=" + encodeURIComponent(SOURCE_URL);
+    document.getElementById("copy-url").addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(SOURCE_URL);
+        const btn = document.getElementById("copy-url");
+        const prev = btn.textContent;
+        btn.textContent = "Copied";
+        setTimeout(() => (btn.textContent = prev), 1500);
+      } catch (_) {}
+    });
+
+    fetch("apps.json", { cache: "no-store" })
+      .then((r) => r.json())
+      .then((src) => {
+        document.title = src.name || document.title;
+        document.getElementById("store-name").textContent = src.name || "App Store";
+        document.getElementById("store-subtitle").textContent = src.subtitle || "";
+        if (src.iconURL) {
+          const i = document.getElementById("store-icon");
+          i.src = src.iconURL;
+          i.onerror = () => (i.style.visibility = "hidden");
+        }
+        if (src.tintColor) {
+          document.documentElement.style.setProperty("--accent", src.tintColor);
+          document.querySelector('meta[name="theme-color"]').setAttribute("content", src.tintColor);
+        }
+        const list = document.getElementById("apps");
+        const apps = src.apps || [];
+        if (apps.length === 0) {
+          list.innerHTML = '<div class="empty">No apps yet. Ship your first one.</div>';
+          return;
+        }
+        for (const app of apps) {
+          const latest = (app.versions && app.versions[0]) || {};
+          const installURL =
+            "altstore://install?url=" + encodeURIComponent(latest.downloadURL || "");
+          const node = document.createElement("div");
+          node.className = "app";
+          node.innerHTML = `
+            <img class="app-icon" alt="" />
+            <div class="meta">
+              <div class="name"></div>
+              <div class="subtitle"></div>
+              <div class="version"></div>
+            </div>
+            <a class="install" href="${installURL}">Get</a>
+          `;
+          node.querySelector(".name").textContent = app.name || app.bundleIdentifier;
+          node.querySelector(".subtitle").textContent =
+            app.subtitle || app.localizedDescription || "";
+          node.querySelector(".version").textContent =
+            (latest.version ? "Version " + latest.version : "") +
+            (latest.date ? "  ·  " + latest.date : "");
+          const icon = node.querySelector(".app-icon");
+          if (app.iconURL) {
+            icon.src = app.iconURL;
+            icon.onerror = () => (icon.style.visibility = "hidden");
+          } else {
+            icon.style.visibility = "hidden";
+          }
+          list.appendChild(node);
+        }
+      })
+      .catch((err) => {
+        document.getElementById("apps").innerHTML =
+          '<div class="empty">Couldn’t load apps.json. Is GitHub Pages enabled?</div>';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>
