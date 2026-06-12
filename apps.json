@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.1.3",
+          "date": "2026-06-12",
+          "localizedDescription": "Scan history: every scan is saved and reopenable (clock icon on home). Fixed white squares behind pieces. 'Play through on Lichess' now loads the whole game with a scrubbable move list.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.1.3.ipa",
+          "size": 317394,
+          "sha256": "818954e8af78151dcdac1c83932f21926c10d2a4a3dbfdfc3170c61abaa1fc24",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.1.2",
           "date": "2026-06-12",
           "localizedDescription": "Proper piece images (Lichess cburnett set). Scanned games are real PGN: open as a playable game on Lichess, or Share PGN to paste anywhere.",
