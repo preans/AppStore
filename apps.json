@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.1.1",
+          "date": "2026-06-12",
+          "localizedDescription": "Nicer board (tournament colours, outlined pieces, coordinates), Chess.com analysis button, opens the Lichess/Chess.com app when installed.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.1.1.ipa",
+          "size": 184886,
+          "sha256": "6b4de63da01d0da36c2f98ebaf4c89009e975e8674329c59960d808b87892587",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.1.0",
           "date": "2026-06-12",
           "localizedDescription": "Initial shell: board & scoresheet scan flows with test data, editable board, game replay, Lichess analysis.",

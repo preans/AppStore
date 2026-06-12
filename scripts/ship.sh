@@ -45,7 +45,8 @@ fi
 
 # --- read version from Info.plist if not given --------------------------------
 if [[ -z "$VERSION" ]]; then
-  PLIST="$(find "$APP_DIR" -name Info.plist -not -path '*/.build/*' -not -path '*/build/*' | head -1)"
+  # -L: APP_DIR may be a symlink to a project living outside this repo
+  PLIST="$(find -L "$APP_DIR" -name Info.plist -not -path '*/.build/*' -not -path '*/build/*' | head -1)"
   if [[ -n "$PLIST" ]]; then
     VERSION="$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' "$PLIST" 2>/dev/null || true)"
   fi
