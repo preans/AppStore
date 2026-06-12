@@ -33,12 +33,9 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": [
-          {
-            "name": "NSCameraUsageDescription",
-            "usageDescription": "Photograph chess boards and scoresheets."
-          }
-        ]
+        "privacy": {
+          "NSCameraUsageDescription": "Photograph chess boards and scoresheets."
+        }
       }
     }
   ],
