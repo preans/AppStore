@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.2.0",
+          "date": "2026-06-12",
+          "localizedDescription": "Scoresheet scanning is REAL: photos go to the Double Exclam scan API (Sonnet OCR + chess-logic auto-repair). Auto-corrected moves shown in amber. Board scanning still uses test data.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.2.0.ipa",
+          "size": 340753,
+          "sha256": "b1fad894504a725e4882093a953588012166df2a69f97e71d072043206f9504d",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.1.4",
           "date": "2026-06-12",
           "localizedDescription": "Chess.com analysis now opens in an in-app browser — works around the Chess.com app crashing on FEN deep links.",
