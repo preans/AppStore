@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.1.2",
+          "date": "2026-06-12",
+          "localizedDescription": "Proper piece images (Lichess cburnett set). Scanned games are real PGN: open as a playable game on Lichess, or Share PGN to paste anywhere.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.1.2.ipa",
+          "size": 300163,
+          "sha256": "08f912380ccfdcb19430c80ec3946f743f201024884d5fc785eacf736b252ec3",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.1.1",
           "date": "2026-06-12",
           "localizedDescription": "Nicer board (tournament colours, outlined pieces, coordinates), Chess.com analysis button, opens the Lichess/Chess.com app when installed.",
