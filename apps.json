@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.1.4",
+          "date": "2026-06-12",
+          "localizedDescription": "Chess.com analysis now opens in an in-app browser — works around the Chess.com app crashing on FEN deep links.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.1.4.ipa",
+          "size": 321745,
+          "sha256": "47a726d8d0195b006f3cfb79f9cdbc04498c2adf4605c01294cf4a5f89073bc2",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.1.3",
           "date": "2026-06-12",
           "localizedDescription": "Scan history: every scan is saved and reopenable (clock icon on home). Fixed white squares behind pieces. 'Play through on Lichess' now loads the whole game with a scrubbable move list.",
