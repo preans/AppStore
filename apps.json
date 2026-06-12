@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.3.1",
+          "date": "2026-06-12",
+          "localizedDescription": "Scans now carry a per-install device id so each phone's contributions to the training flywheel stay separate.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.3.1.ipa",
+          "size": 21817394,
+          "sha256": "1323b3629c39934d8267d6b31a7da2b724087055c7d9f3870c746d046197cd82",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.3.0",
           "date": "2026-06-12",
           "localizedDescription": "Board scanning is REAL — the CNN runs on your phone (instant, offline). Review the board, fix any wrong squares, analyse. Corrected scans train the next model version.",
