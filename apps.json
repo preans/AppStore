@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.3.0",
+          "date": "2026-06-12",
+          "localizedDescription": "Board scanning is REAL — the CNN runs on your phone (instant, offline). Review the board, fix any wrong squares, analyse. Corrected scans train the next model version.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.3.0.ipa",
+          "size": 21816877,
+          "sha256": "3946eeb729632633fc52baec09b17562e29f025b2275e81f46d8ec9897c89807",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.2.0",
           "date": "2026-06-12",
           "localizedDescription": "Scoresheet scanning is REAL: photos go to the Double Exclam scan API (Sonnet OCR + chess-logic auto-repair). Auto-corrected moves shown in amber. Board scanning still uses test data.",
