@@ -1,14 +1,4 @@
-# Xcode
-**/build/
-**/.build/
-**/DerivedData/
-**/*.xcuserstate
-**/xcuserdata/
-**/*.xcworkspace/xcuserdata/
-**/*.xcodeproj/xcuserdata/
-
-# macOS
 .DS_Store
-
-# Logs
-/tmp/ship-*.log
+# Local symlinks to app sources living outside this repo (ship.sh follows
+# them; GitHub Pages chokes on them)
+apps/doubleexclam-scan
