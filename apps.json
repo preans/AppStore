@@ -14,8 +14,8 @@
       "name": "Hello World",
       "bundleIdentifier": "com.preans.hello",
       "developerName": "Paul Reaney",
-      "subtitle": "The first app in the store.",
-      "localizedDescription": "A placeholder app so the catalog has something in it. Replace this entry when you ship your first real app.",
+      "subtitle": "Wave hello to your own app store.",
+      "localizedDescription": "The first app built and shipped through the personal app store pipeline: scaffolded by Claude Code, built with xcodebuild, served by GitHub Pages, installed by AltStore.",
       "iconURL": "https://preans.github.io/AppStore/icons/hello.png",
       "tintColor": "#3478F6",
       "category": "utilities",
@@ -23,11 +23,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "buildVersion": "1",
-          "date": "2026-05-19",
-          "localizedDescription": "Initial placeholder build.",
+          "date": "2026-06-12",
+          "localizedDescription": "First real build — end-to-end pipeline test.",
           "downloadURL": "https://preans.github.io/AppStore/ipa/hello-0.1.0.ipa",
-          "size": 0,
+          "size": 700746,
+          "sha256": "f861480b56f68d70bb861854fbe4610f6a35d828efa3c869ffe8d029b3a051a2",
           "minOSVersion": "16.0"
         }
       ],
