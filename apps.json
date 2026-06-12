@@ -35,6 +35,37 @@
         "entitlements": [],
         "privacy": []
       }
+    },
+    {
+      "name": "Double Exclam Scan",
+      "bundleIdentifier": "com.preans.doubleExclamScan",
+      "developerName": "Paul Reaney",
+      "subtitle": "Scan a chess board or scoresheet, analyse on Lichess.",
+      "localizedDescription": "Photograph a chess board or a handwritten scoresheet — from the camera, Photos, or Files. Review the position on an editable board, scrub through scanned games move by move, then open it straight in Lichess analysis. Scanning is stubbed with test data in this build; the full scanner is coming.",
+      "iconURL": "https://preans.github.io/AppStore/icons/doubleexclam-scan.png",
+      "tintColor": "#4F46E5",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-06-12",
+          "localizedDescription": "Initial shell: board & scoresheet scan flows with test data, editable board, game replay, Lichess analysis.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.1.0.ipa",
+          "size": 177042,
+          "sha256": "579010a9d8d7e257fb8f724220b946a50a807253c40fc813d7cdefc60e68ae3e",
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "NSCameraUsageDescription",
+            "usageDescription": "Photograph chess boards and scoresheets."
+          }
+        ]
+      }
     }
   ],
   "news": []
