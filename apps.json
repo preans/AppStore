@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.4.0",
+          "date": "2026-06-13",
+          "localizedDescription": "Save scanned games to your Double Exclam club: sign in once with your existing account, then every scoresheet scan can land in the club archive.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.4.0.ipa",
+          "size": 21837910,
+          "sha256": "13838cfbc9ac9078f7273c637892ebb1c9374c6017f3207afdaa2953ce9f8965",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.3.1",
           "date": "2026-06-12",
           "localizedDescription": "Scans now carry a per-install device id so each phone's contributions to the training flywheel stay separate.",
