@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.5.1",
+          "date": "2026-06-15",
+          "localizedDescription": "Rollback — this is the proven 0.4.0 build. 0.5.0 regressed, so this reinstalls the previous version (your data is kept).",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.4.0.ipa",
+          "size": 21837910,
+          "sha256": "13838cfbc9ac9078f7273c637892ebb1c9374c6017f3207afdaa2953ce9f8965",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.5.0",
           "date": "2026-06-15",
           "localizedDescription": "Multi-page scoresheets — add another page when a game spills onto a second sheet. In-place move correction — fix a misread move and the rest of the game is re-read. Plus Copy FEN on board scans.",
