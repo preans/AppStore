@@ -25,9 +25,9 @@
           "version": "0.5.1",
           "date": "2026-06-15",
           "localizedDescription": "Rollback — this is the proven 0.4.0 build. 0.5.0 regressed, so this reinstalls the previous version (your data is kept).",
-          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.4.0.ipa",
-          "size": 21837910,
-          "sha256": "13838cfbc9ac9078f7273c637892ebb1c9374c6017f3207afdaa2953ce9f8965",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.5.1.ipa",
+          "size": 21837786,
+          "sha256": "e238e7a1bb19b286a8371913f476474399b7a296a33ec2df0430ff15472198f2",
           "minOSVersion": "16.0"
         },
         {
