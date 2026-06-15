@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.5.0",
+          "date": "2026-06-15",
+          "localizedDescription": "Multi-page scoresheets — add another page when a game spills onto a second sheet. In-place move correction — fix a misread move and the rest of the game is re-read. Plus Copy FEN on board scans.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.5.0.ipa",
+          "size": 21886861,
+          "sha256": "f229d27f1bfa12d1cb01a7926d69e4bfde2bfd3322199d3166691bfd7378a825",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.4.0",
           "date": "2026-06-13",
           "localizedDescription": "Save scanned games to your Double Exclam club: sign in once with your existing account, then every scoresheet scan can land in the club archive.",
