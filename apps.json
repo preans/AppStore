@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.7",
+          "date": "2026-06-16",
+          "localizedDescription": "Handwriting crop now advances exactly one row per move (fixes the crop drifting ahead on lower-contrast photos).",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.7.ipa",
+          "size": 21922757,
+          "sha256": "b84db897ff189d5912819be4dbdcd9325261bc7fe6eb06eae37c96ac32991635",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.6",
           "date": "2026-06-16",
           "localizedDescription": "Handwriting crop now lines up to the exact row as you step through the game (previously started a few rows too high).",
