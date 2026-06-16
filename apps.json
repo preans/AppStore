@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.10",
+          "date": "2026-06-16",
+          "localizedDescription": "Scanned games now open on move 1 so you can play through from the start. (Crop accuracy locked in with tests.)",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.10.ipa",
+          "size": 21928592,
+          "sha256": "d905493030208f4801fe414967facb6c92afd57478566a9d2234fefd08fbb883",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.9",
           "date": "2026-06-16",
           "localizedDescription": "Handwriting crop now stays locked to the correct row for the whole game (fixes it creeping a row ahead by mid-game).",
