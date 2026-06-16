@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.8",
+          "date": "2026-06-16",
+          "localizedDescription": "Scanning no longer fails if the screen dims — the screen now stays awake during a scan, and the request can finish even if the app is backgrounded.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.8.ipa",
+          "size": 21924538,
+          "sha256": "0f31842c90ccf1a86e7238583b9c7bf9ab1ba5f5cf9a99965a2739832bfdc3b4",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.7",
           "date": "2026-06-16",
           "localizedDescription": "Handwriting crop now advances exactly one row per move (fixes the crop drifting ahead on lower-contrast photos).",
