@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.6.0",
+          "date": "2026-06-16",
+          "localizedDescription": "5 free scans, then create a free account (Google or email code) to keep scanning — all in-app. No payment.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.6.0.ipa",
+          "size": 21895615,
+          "sha256": "894fdfce7ff8b553a77072e6b1fabd8a6040b39b5727b8db628f47951a3da4cd",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.5.3",
           "date": "2026-06-16",
           "localizedDescription": "Fixes a crash where Save to club closed the app (a main-thread deadlock during sign-in).",
