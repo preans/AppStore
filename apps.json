@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.0",
+          "date": "2026-06-16",
+          "localizedDescription": "Step through a scanned game and see the actual handwriting for each move — check the scan without going back to the paper.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.0.ipa",
+          "size": 21905520,
+          "sha256": "293b791eaadc3d15be95c0730a4e7c47c5b39beae124354c17071930c0a621b1",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.6.1",
           "date": "2026-06-16",
           "localizedDescription": "Stepping through a scanned game now flags any auto-corrected move (shows what it was read as) so you can check it against your sheet.",
