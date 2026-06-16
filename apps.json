@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.5",
+          "date": "2026-06-16",
+          "localizedDescription": "Scoresheet scanning now flattens the page first (on-device), so real angled phone photos read far better and the 'as written' handwriting crop lines up to the exact row.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.5.ipa",
+          "size": 21925332,
+          "sha256": "fa1001eb23d799c0eb216395f84ea133c28f938a5672eea0f43bdf6caab341f3",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.4",
           "date": "2026-06-16",
           "localizedDescription": "Fixes the handwriting crop landing a few rows too low: ignores the sheet's header rows and anchors to the first move.",
