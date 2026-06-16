@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.5.3",
+          "date": "2026-06-16",
+          "localizedDescription": "Fixes a crash where Save to club closed the app (a main-thread deadlock during sign-in).",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.5.3.ipa",
+          "size": 21886634,
+          "sha256": "08f2c13b2a3c13a366cbf24bbe1832a245c1a9c0936a10d4f0ec588729657908",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.5.2",
           "date": "2026-06-16",
           "localizedDescription": "Multi-page scoresheets (add another page when a game runs onto a second sheet) and in-place move correction. The move step-through is unchanged. Supersedes the brief 0.4.0 rollback.",
