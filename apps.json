@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.3",
+          "date": "2026-06-16",
+          "localizedDescription": "Polished the free-account prompt (clear, branded sheet) and moved the free-scans-remaining indicator to a prominent banner at the top.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.3.ipa",
+          "size": 21919198,
+          "sha256": "e105f94a6518843535e3335ad1933eaca0718d0bd04daa513b8bab9ffb72a9c4",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.2",
           "date": "2026-06-16",
           "localizedDescription": "Handwriting crops now line up with the right row: the app detects the scoresheet grid on the image itself instead of relying on model coordinates.",
