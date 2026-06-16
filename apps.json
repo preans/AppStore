@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.4",
+          "date": "2026-06-16",
+          "localizedDescription": "Fixes the handwriting crop landing a few rows too low: ignores the sheet's header rows and anchors to the first move.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.4.ipa",
+          "size": 21922057,
+          "sha256": "767ffdea4c42e5e31f23b5ef6d190c6386022f82a0becf0444ebfa67b24aaec6",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.3",
           "date": "2026-06-16",
           "localizedDescription": "Polished the free-account prompt (clear, branded sheet) and moved the free-scans-remaining indicator to a prominent banner at the top.",
