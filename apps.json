@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.11",
+          "date": "2026-06-16",
+          "localizedDescription": "The 'as written' handwriting crop now shows when you reopen a game from history too (and survives app restarts), not only on a fresh scan.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.11.ipa",
+          "size": 21929881,
+          "sha256": "ebb02058f951f6ae25ee6df99ad014efa96851f7bc1b94b36c5f410720ff3846",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.10",
           "date": "2026-06-16",
           "localizedDescription": "Scanned games now open on move 1 so you can play through from the start. (Crop accuracy locked in with tests.)",
