@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.2",
+          "date": "2026-06-16",
+          "localizedDescription": "Handwriting crops now line up with the right row: the app detects the scoresheet grid on the image itself instead of relying on model coordinates.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.2.ipa",
+          "size": 21909247,
+          "sha256": "c6b57604d042224192fd3d5c4d60f6fac0635a541a155c96e164cf40afb56ce8",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.1",
           "date": "2026-06-16",
           "localizedDescription": "The handwriting shown as you step through now spans the whole row — move number plus both players' moves — for easier reading.",
