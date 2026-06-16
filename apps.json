@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.6.1",
+          "date": "2026-06-16",
+          "localizedDescription": "Stepping through a scanned game now flags any auto-corrected move (shows what it was read as) so you can check it against your sheet.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.6.1.ipa",
+          "size": 21901600,
+          "sha256": "551a3873b2a9d8c6a06575af5e390d53cc3c4d8a1d3be8294d28098e18acfffe",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.6.0",
           "date": "2026-06-16",
           "localizedDescription": "5 free scans, then create a free account (Google or email code) to keep scanning — all in-app. No payment.",
