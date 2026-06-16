@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.9",
+          "date": "2026-06-16",
+          "localizedDescription": "Handwriting crop now stays locked to the correct row for the whole game (fixes it creeping a row ahead by mid-game).",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.9.ipa",
+          "size": 21928041,
+          "sha256": "0eb0be930203d56be95aa0d81349d914349a0d36d99827f86bc8fd07e1650883",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.8",
           "date": "2026-06-16",
           "localizedDescription": "Scanning no longer fails if the screen dims — the screen now stays awake during a scan, and the request can finish even if the app is backgrounded.",
