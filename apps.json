@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.6",
+          "date": "2026-06-16",
+          "localizedDescription": "Handwriting crop now lines up to the exact row as you step through the game (previously started a few rows too high).",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.6.ipa",
+          "size": 21925136,
+          "sha256": "dc3b0133a002977618e6807596204a4bfedf56a2a47e534648760fe2874a4ef4",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.5",
           "date": "2026-06-16",
           "localizedDescription": "Scoresheet scanning now flattens the page first (on-device), so real angled phone photos read far better and the 'as written' handwriting crop lines up to the exact row.",
