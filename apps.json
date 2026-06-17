@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.12",
+          "date": "2026-06-17",
+          "localizedDescription": "Handwriting crop now works on dimmer photos and ones where the sheet fills the frame (was showing nothing on those). Reopened games from history show the crop too.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.12.ipa",
+          "size": 21931037,
+          "sha256": "c7b947c4b0e2d0edf1459eb25bc1d63f4fe3986d28d36e5079dd0124567aa690",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.11",
           "date": "2026-06-16",
           "localizedDescription": "The 'as written' handwriting crop now shows when you reopen a game from history too (and survives app restarts), not only on a fresh scan.",
