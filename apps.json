@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.13",
+          "date": "2026-06-19",
+          "localizedDescription": "Fix the per-move scoresheet crop: it now follows each move's actual position, so sheets whose move table starts higher up the page no longer show the wrong row.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.13.ipa",
+          "size": 21931138,
+          "sha256": "30cf14daf70cbc1d1ab841a8179cf933cc35a80dd6f2eadb0e1b70b6e29e4c10",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.12",
           "date": "2026-06-17",
           "localizedDescription": "Handwriting crop now works on dimmer photos and ones where the sheet fills the frame (was showing nothing on those). Reopened games from history show the crop too.",
