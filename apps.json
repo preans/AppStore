@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.14",
+          "date": "2026-06-19",
+          "localizedDescription": "Per-move scoresheet crop now follows the printed move number, so it lines up on any sheet layout (landscape sheets, different row counts) instead of starting a few moves in.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.14.ipa",
+          "size": 21944626,
+          "sha256": "a2f37a49f997e606be5dd7a9cdf14ad196a744486abf12e50b57e35a1c66d399",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.13",
           "date": "2026-06-19",
           "localizedDescription": "Fix the per-move scoresheet crop: it now follows each move's actual position, so sheets whose move table starts higher up the page no longer show the wrong row.",
