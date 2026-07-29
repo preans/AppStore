@@ -22,6 +22,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.7.15",
+          "date": "2026-07-29",
+          "localizedDescription": "Faster scan opening (no more freeze on multi-page games), failed scans no longer use up a free scan, and your sign-in is stored more securely.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/doubleexclam-scan-0.7.15.ipa",
+          "size": 21956414,
+          "sha256": "59d4c00d4bc58b4ad1f026493c5b3406b16545ea101a80f96d23e6b9d43e63fa",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.7.14",
           "date": "2026-06-19",
           "localizedDescription": "Per-move scoresheet crop now follows the printed move number, so it lines up on any sheet layout (landscape sheets, different row counts) instead of starting a few moves in.",
