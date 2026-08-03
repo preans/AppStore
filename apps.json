@@ -307,6 +307,28 @@
           "NSCameraUsageDescription": "Photograph chess boards and scoresheets."
         }
       }
+    },
+    {
+      "name": "Stroke Pacer",
+      "bundleIdentifier": "com.preans.strokePacer",
+      "developerName": "Paul Reaney",
+      "subtitle": "A rowing metronome: set a stroke rate, catch on the beep.",
+      "localizedDescription": "A dead-simple stroke-rate pacer for skiff rowing. Set a rate from 0–50 strokes per minute and the phone beeps on every catch — mount it in front of the stroke seat and the crew follows. The screen stays awake while it runs, and the beep plays even with the silent switch on.",
+      "iconURL": "https://preans.github.io/AppStore/icons/stroke-pacer.png",
+      "tintColor": "#1D4ED8",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-08-03",
+          "localizedDescription": "Initial release: set a stroke rate (0–50 spm), catch on the beep.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/stroke-pacer-0.1.0.ipa",
+          "size": 170705,
+          "sha256": "c85d28a3feb559e6dbc82c97be92d6761742a1a53e466995f5c1cbd761f562ad",
+          "minOSVersion": "16.0"
+        }
+      ]
     }
   ],
   "news": []

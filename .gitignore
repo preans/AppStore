@@ -2,3 +2,4 @@
 # Local symlinks to app sources living outside this repo (ship.sh follows
 # them; GitHub Pages chokes on them)
 apps/doubleexclam-scan
+apps/stroke-pacer
