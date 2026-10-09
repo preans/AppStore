@@ -329,6 +329,28 @@
           "minOSVersion": "16.0"
         }
       ]
+    },
+    {
+      "name": "Kilclief Notes",
+      "bundleIdentifier": "com.preans.kilcliefNotes",
+      "developerName": "Paul Reaney",
+      "subtitle": "Your Concept2 Logbook rows, on your phone.",
+      "localizedDescription": "Connect your Concept2 Logbook and see every row on your phone: distance, time, pace, stroke rate and splits. Totals for today, this week and this month, plus insights on what to work on. Read-only: nothing is ever written to your logbook. The home-screen and lock-screen widget is set up separately through Scriptable, from the app’s Settings tab.",
+      "iconURL": "https://preans.github.io/AppStore/icons/kilclief-notes.png",
+      "tintColor": "#0A5CD5",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-09",
+          "localizedDescription": "Initial release: every row from your Concept2 Logbook with splits, totals for any period, and insights.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/kilclief-notes-0.1.0.ipa",
+          "size": 1165818,
+          "sha256": "592bf6729bce7c93a451bc65d71c33b55952a9d55a912a8c3c65182be1312248",
+          "minOSVersion": "16.0"
+        }
+      ]
     }
   ],
   "news": []
