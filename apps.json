@@ -342,6 +342,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.4.0",
+          "date": "2026-10-10",
+          "localizedDescription": "Each row now opens with two cards: what went well, and the one thing to work on next time with a concrete instruction for the next row.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/kilclief-notes-0.4.0.ipa",
+          "size": 1227317,
+          "sha256": "63e32b65045c61074d445322a89c673c329a2ba281b5d6a5e3dff9881af709f0",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.3.0",
           "date": "2026-10-10",
           "localizedDescription": "Each row now gets a rating out of five and the one thing to take away, then a line each for Result, Pacing and Technique. Technique watches stroke length through the piece: strokes shortening at the same rate is the sign of the legs-body-arms sequence going.",
