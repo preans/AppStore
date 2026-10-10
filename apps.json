@@ -342,6 +342,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.2.0",
+          "date": "2026-10-10",
+          "localizedDescription": "Open a row to see records, how it compares with last time, pacing, start, finish and stroke efficiency, with pace and rate charts.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/kilclief-notes-0.2.0.ipa",
+          "size": 1202822,
+          "sha256": "baf0ccc83737fc7e8ee374f5264c437c3464e328305dd27b47206979a040ea0d",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.1.0",
           "date": "2026-10-09",
           "localizedDescription": "Initial release: every row from your Concept2 Logbook with splits, totals for any period, and insights.",
