@@ -342,6 +342,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.3.0",
+          "date": "2026-10-10",
+          "localizedDescription": "Each row now gets a rating out of five and the one thing to take away, then a line each for Result, Pacing and Technique. Technique watches stroke length through the piece: strokes shortening at the same rate is the sign of the legs-body-arms sequence going.",
+          "downloadURL": "https://preans.github.io/AppStore/ipa/kilclief-notes-0.3.0.ipa",
+          "size": 1219208,
+          "sha256": "1ee212f18d79acd76d7165071d4c22b8de1a1470e43700989295dc0abce4efcb",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.2.0",
           "date": "2026-10-10",
           "localizedDescription": "Open a row to see records, how it compares with last time, pacing, start, finish and stroke efficiency, with pace and rate charts.",
