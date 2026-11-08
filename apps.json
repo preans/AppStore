@@ -329,55 +329,6 @@
           "minOSVersion": "16.0"
         }
       ]
-    },
-    {
-      "name": "Kilclief Notes",
-      "bundleIdentifier": "com.preans.kilcliefNotes",
-      "developerName": "Paul Reaney",
-      "subtitle": "Your Concept2 Logbook rows, on your phone.",
-      "localizedDescription": "Connect your Concept2 Logbook and see every row on your phone: distance, time, pace, stroke rate and splits. Totals for today, this week and this month, plus insights on what to work on. Read-only: nothing is ever written to your logbook. The home-screen and lock-screen widget is set up separately through Scriptable, from the app’s Settings tab.",
-      "iconURL": "https://preans.github.io/AppStore/icons/kilclief-notes.png",
-      "tintColor": "#0A5CD5",
-      "category": "utilities",
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "0.4.0",
-          "date": "2026-10-10",
-          "localizedDescription": "Each row now opens with two cards: what went well, and the one thing to work on next time with a concrete instruction for the next row.",
-          "downloadURL": "https://preans.github.io/AppStore/ipa/kilclief-notes-0.4.0.ipa",
-          "size": 1227317,
-          "sha256": "63e32b65045c61074d445322a89c673c329a2ba281b5d6a5e3dff9881af709f0",
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "0.3.0",
-          "date": "2026-10-10",
-          "localizedDescription": "Each row now gets a rating out of five and the one thing to take away, then a line each for Result, Pacing and Technique. Technique watches stroke length through the piece: strokes shortening at the same rate is the sign of the legs-body-arms sequence going.",
-          "downloadURL": "https://preans.github.io/AppStore/ipa/kilclief-notes-0.3.0.ipa",
-          "size": 1219208,
-          "sha256": "1ee212f18d79acd76d7165071d4c22b8de1a1470e43700989295dc0abce4efcb",
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "0.2.0",
-          "date": "2026-10-10",
-          "localizedDescription": "Open a row to see records, how it compares with last time, pacing, start, finish and stroke efficiency, with pace and rate charts.",
-          "downloadURL": "https://preans.github.io/AppStore/ipa/kilclief-notes-0.2.0.ipa",
-          "size": 1202822,
-          "sha256": "baf0ccc83737fc7e8ee374f5264c437c3464e328305dd27b47206979a040ea0d",
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "0.1.0",
-          "date": "2026-10-09",
-          "localizedDescription": "Initial release: every row from your Concept2 Logbook with splits, totals for any period, and insights.",
-          "downloadURL": "https://preans.github.io/AppStore/ipa/kilclief-notes-0.1.0.ipa",
-          "size": 1165818,
-          "sha256": "592bf6729bce7c93a451bc65d71c33b55952a9d55a912a8c3c65182be1312248",
-          "minOSVersion": "16.0"
-        }
-      ]
     }
   ],
   "news": []
